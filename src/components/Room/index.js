@@ -14,6 +14,15 @@ export default function Model(props) {
       <mesh
         castShadow
         receiveShadow
+        geometry={nodes.Plane003.geometry}
+        material={nodes.Plane003.material}
+        position={[-2.41, 2.36, 0.58]}
+        rotation={[-0.52, 0, 0]}
+        scale={[1.55, 1, 1]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
         geometry={nodes.Plane.geometry}
         material={nodes.Plane.material}
         position={[-3, 1, 0]}
@@ -43,8 +52,41 @@ export default function Model(props) {
         receiveShadow
         geometry={nodes.window_frame.geometry}
         material={nodes.window_frame.material}
-        position={[-2.0058, 1.6072, 0.0137]}
-        scale={[0.0563, 0.0258, 0.0314]}
+        position={[-2.01, 1.61, 0.01]}
+        scale={[0.06, 0.03, 0.03]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Cube.geometry}
+        material={nodes.Cube.material}
+        position={[-0.06, 0.97, 0.03]}
+        scale={[0.08, -1.04, 0.07]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Cube001.geometry}
+        material={nodes.Cube001.material}
+        position={[-1.99, 1.95, 0.04]}
+        scale={[1.98, -0.06, 0.07]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Cube002.geometry}
+        material={nodes.Cube002.material}
+        position={[-0.07, 1.95, 2.02]}
+        rotation={[0, -Math.PI / 2, 0]}
+        scale={[1.98, -0.06, 0.07]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Cube003.geometry}
+        material={nodes.Cube003.material}
+        position={[-0.8, 0.41, 2.55]}
+        scale={[0.21, 0.45, 1.66]}
       />
     </group>
   );

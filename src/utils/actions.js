@@ -1,0 +1,1 @@
+export const TOGGLE_PROJECTS = 'TOGGLE_PROJECTS'

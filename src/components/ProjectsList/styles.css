@@ -1,0 +1,7 @@
+.ProjectsList{
+    position: fixed;
+    top:40vh;
+    left:35vw;
+    z-index: 9;
+    background-color: white;
+}
